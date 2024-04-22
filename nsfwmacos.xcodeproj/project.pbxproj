@@ -11,6 +11,8 @@
 		5B0BCE482BD67D400079A08E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0BCE472BD67D400079A08E /* ViewController.swift */; };
 		5B0BCE4A2BD67D410079A08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0BCE492BD67D410079A08E /* Assets.xcassets */; };
 		5B0BCE4D2BD67D410079A08E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5B0BCE4C2BD67D410079A08E /* Base */; };
+		5B0BCE552BD67D5C0079A08E /* NSFW.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5B0BCE542BD67D5C0079A08E /* NSFW.mlmodel */; };
+		5BE34CD62BD6841800522E99 /* CustomTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BE34CD52BD6841800522E99 /* CustomTableCellView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		5B0BCE492BD67D410079A08E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B0BCE4C2BD67D410079A08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B0BCE4E2BD67D410079A08E /* nsfwmacos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nsfwmacos.entitlements; sourceTree = "<group>"; };
+		5B0BCE542BD67D5C0079A08E /* NSFW.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = NSFW.mlmodel; sourceTree = "<group>"; };
+		5BE34CD52BD6841800522E99 /* CustomTableCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableCellView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				5B0BCE452BD67D400079A08E /* AppDelegate.swift */,
 				5B0BCE472BD67D400079A08E /* ViewController.swift */,
+				5B0BCE542BD67D5C0079A08E /* NSFW.mlmodel */,
+				5BE34CD52BD6841800522E99 /* CustomTableCellView.xib */,
 				5B0BCE492BD67D410079A08E /* Assets.xcassets */,
 				5B0BCE4B2BD67D410079A08E /* Main.storyboard */,
 				5B0BCE4E2BD67D410079A08E /* nsfwmacos.entitlements */,
@@ -119,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BE34CD62BD6841800522E99 /* CustomTableCellView.xib in Resources */,
 				5B0BCE4A2BD67D410079A08E /* Assets.xcassets in Resources */,
 				5B0BCE4D2BD67D410079A08E /* Base in Resources */,
 			);
@@ -133,6 +140,7 @@
 			files = (
 				5B0BCE482BD67D400079A08E /* ViewController.swift in Sources */,
 				5B0BCE462BD67D400079A08E /* AppDelegate.swift in Sources */,
+				5B0BCE552BD67D5C0079A08E /* NSFW.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
